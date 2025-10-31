@@ -438,6 +438,12 @@
                     <button class="attack-btn" onclick="attack(pemain1, pemain2)">⚔️ Attack</button>
                     <button class="heal-btn" onclick="heal(pemain1)">❤️ Heal</button>
                 </div>
+
+                <!-- Inventory & equipped display -->
+                <div style="margin-top:18px; text-align:center;">
+                    <div style="font-weight:900; margin-bottom:6px;">Equipped: <span id="equipped1">None</span></div>
+                    <div id="inventory1" style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap;"></div>
+                </div>
             </div>
 
             <div class="vs">VS</div>
@@ -454,6 +460,12 @@
                 <div class="controls" id="controls2">
                     <button class="attack-btn" onclick="attack(pemain2, pemain1)">⚔️ Attack</button>
                     <button class="heal-btn" onclick="heal(pemain2)">❤️ Heal</button>
+                </div>
+
+                <!-- Inventory & equipped display -->
+                <div style="margin-top:18px; text-align:center;">
+                    <div style="font-weight:900; margin-bottom:6px;">Equipped: <span id="equipped2">None</span></div>
+                    <div id="inventory2" style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap;"></div>
                 </div>
             </div>
         </div>
